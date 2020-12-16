@@ -1,0 +1,45 @@
+.jing{
+  margin-top: 70rpx;
+}
+.ww1{
+  text-align: center;
+  margin-top: 60rpx;
+  font-weight:1000;
+  white-space:pre-wrap;
+  color:purple;
+  margin-left:  15px;
+  width: 90%;
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: ridge;
+  border-right-style: ridge;
+  border-color:#d884cc;
+  border-width: 2 px;
+}
+.ww2{
+  white-space:pre-wrap;
+  color:purple;
+  margin-left:  15px;
+  margin-right:  15px;
+  line-height: 1.5;
+}
+.ww3{
+  font-weight:100;
+  white-space:pre-wrap;
+  color:purple;
+  margin-left:  15px; 
+  margin-right:  15px;
+  font-weight:1000;
+  line-height: 1.5;
+}
+.ww4{
+  margin-top: 10rpx;
+  white-space:pre-wrap;
+  color:purple;
+  margin-left:  15px;
+  margin-right:  15px;
+  line-height: 1.5;
+}
+.we{
+  margin-top: 70rpx;
+}

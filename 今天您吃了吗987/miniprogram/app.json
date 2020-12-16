@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/page1/page1",
+    "pages/page2/page2",
+    "pages/page3/page3",
+    "pages/page5/page5",
+    "pages/page4/page4"
+  ],
+  "window": {
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor":"#fff7b6",
+    "navigationBarTitleText": "今天您吃了吗",
+    "navigationBarTextStyle": "black"
+  },
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "icons/670.png",
+          "selectedIconPath": "icons/671.png"
+        },
+        {
+          "pagePath": "pages/page2/page2",
+          "text": "未有选择",
+          "iconPath": "icons/666.png",
+          "selectedIconPath": "icons/667.png"
+        },
+        {
+          "pagePath": "pages/page1/page1",
+          "text": "已有选择",
+          "iconPath": "icons/668.png",
+          "selectedIconPath": "icons/669.png"
+        },
+        {
+          "pagePath": "pages/page5/page5",
+          "text": "评论专区",
+          "iconPath": "icons/778.png",
+          "selectedIconPath": "icons/889.png"
+        }
+      
+      ],
+      "selectedColor": "#000000"
+    },
+ 
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

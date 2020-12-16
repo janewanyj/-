@@ -1,0 +1,38 @@
+<image class="background2" style="opacity:{{0.5}}" src="../src/644.jpg" mode="aspectFill"></image>
+<view class="geshi">(请务必在云开发平台上创建集合"meal")</view>
+<progress class="five" percent="0" ></progress>
+
+<view class="caidan">
+<view class="setting">
+  <image class='btnImg' size="mini" mode="aspectFit" src='/icons/input.png' style="width:100rpx;height:100rpx;"></image>
+      <text style="font-size:1.2rem;color:black;">写下你的评价吧！</text>
+</view>
+
+
+
+<form bindsubmit='res'>
+  <view class="section">
+    
+    <input class="bbb" maxlength="30" name="username" placeholder="请输入评论内容" placeholder-style="color:silver;" /></view>
+  
+  <view class="anniu">
+    <button form-type='submit' plain="true"size="mini" >提交评论</button>
+  </view>
+</form>
+</view>
+<progress class="five" percent="0" ></progress>
+
+<view class="caidan">
+  <view class="setting">
+  <image class='btnImg'  mode="aspectFit" src='/icons/cout.png' style="width:120rpx;height:120rpx;"></image>
+      <text style="font-size:1.2rem;color:black">看看大家都有什么评论！</text>
+</view>
+</view>
+
+<view class="anniu1">
+<button type="default" bindtap="onQuery" plain="true"size="mini" >查看往期评论</button></view>
+<view class="jieguo">
+<view wx:for="{{info}}" wx:key="index">
+  <view>{{item.username}}</view>
+</view></view>
+

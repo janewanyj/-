@@ -1,0 +1,63 @@
+.select{
+  margin: 40rpx;
+  text-align: left;
+  margin-top:20px;
+  font-size:70rpx;
+  font-weight:1000;
+}
+.didian{
+  margin: 40rpx;
+  text-align: left;
+  margin-top:20px;
+  font-size:44rpx;
+  font-weight:1000;
+}
+.kouwei{
+  margin: 40rpx;
+  text-align: left;
+  margin-top:20px;
+  font-size:44rpx;
+  font-weight:1000;
+}
+.fengwei{
+  margin: 40rpx;
+  text-align: left;
+  margin-top:20px;
+  font-size:44rpx;
+  font-weight:1000;
+}
+.cai{
+  margin: 40rpx;
+  text-align: left;
+  margin-top:20px;
+  font-size:44rpx;
+  font-weight:1000;
+}
+.caidan{
+  margin: 40rpx;
+  text-align: left;
+  margin-top:20px;
+  font-size:44rpx;
+  font-weight:1000;
+}
+.jieguo{
+  margin: 40rpx;
+  text-align: left;
+  margin-top:20px;
+  font-size:44rpx;
+  font-weight:1000;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size:100% 100%;
+  z-index: -1;
+}
+.background2{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size:100% 100%;
+  z-index: -1;
+}

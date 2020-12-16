@@ -1,0 +1,13 @@
+<image class="background2" style="opacity:{{1}}" src="../src/600.jpg" mode="aspectFill"></image>
+<view style="color:white">1</view>
+<view>
+     <image class="background" style="opacity:{{0}}" src="../src/642.jpg" mode="aspectFill"></image>
+     <view class="btn-area">
+      <navigator url="../page4/page4">   
+      <button type="default" plain="true">今日菜单推荐</button> </navigator> </view>
+    
+     
+     </view>
+
+    
+  

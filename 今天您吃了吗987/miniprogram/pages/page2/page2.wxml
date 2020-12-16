@@ -1,0 +1,38 @@
+<view class="ww1" style="white-space:pre-wrap">
+非常不好意思!这是一个临时界面。
+   </view>
+   <view class="ww2" style="white-space:pre-wrap">
+  因为我们没有发布我们的小程序,所以我们事先设定好的数据库内容无法在你们的界面展示.</view>
+  
+<view class="ww3" style="white-space:pre-wrap">
+   需要大家在云开发操作台数据库里创建一个集合"meal"(本想利用云函数创建,但发现需要模块未下载:(),新增集合成功后再点击下方"载入数据"的按钮.</view>
+  
+<view class="jing">
+      <button type="default" plain="true" bindtap="onAdd">
+        <view bindtap="onAdd2"><view bindtap="onAdd3"><view bindtap="onAdd4"><view bindtap="onAdd5"><view bindtap="onAdd7"><view bindtap="onAdd6"><view bindtap="onAdd8"><view bindtap="onAdd9"><view bindtap="onAdd11"><view bindtap="onAdd12"><view bindtap="onAdd13"><view bindtap="onAdd14"><view bindtap="onAdd15"><view bindtap="onAdd16"><view bindtap="onAdd17"><view bindtap="onAdd18"><view bindtap="onAdd19"><view bindtap="onAdd20"><view bindtap="onAdd21"><view bindtap="onAdd22"><view bindtap="onAdd23"><view bindtap="onAdd24"><view bindtap="onAdd26"><view bindtap="onAdd25"><view bindtap="onAdd27"><view bindtap="onAdd28"><view bindtap="onAdd30"><view bindtap="onAdd29"><view bindtap="onAdd31"><view bindtap="onAdd32"><view bindtap="onAdd34"><view bindtap="onAdd33"><view bindtap="onAdd35"><view bindtap="onAdd36"><view bindtap="onAdd37">载入数据</view></view></view></view></view></view></view></view>
+       </view></view></view></view></view></view></view></view></view></view></view></view></view></view></view></view></view></view></view></view></view></view></view></view></view></view></view>
+      </button> </view>
+      <view class="ww4" style="white-space:pre-wrap">
+  这样可以将我们事先写好的代码存入您新建的数据库中,以便于对我们小程序后续的体验.麻烦大家了!非常感谢!</view>
+      <view class="we">
+      <navigator url="/pages/page3/page3"    hover-class="navigator-hover" >
+      <button type="default" plain="true" >建立集合且载入数据完成后,点击这里</button> </navigator></view>
+
+<!-- 
+<view class='show'>
+  <view style="color:purple">您的今日菜谱：</view>
+</view>
+
+<form bindsubmit='res'>
+  <view class="section">
+    <input maxlength="10" name="username" placeholder="请输入选项名字" placeholder-style="color:silver;" />
+  </view>
+  <view><button form-type='submit'>提交</button></view>
+</form>
+
+ <button type="default" bindtap="onQuery">查看相关菜品</button>
+<view wx:for="{{info}}" wx:key="index">
+  <view>菜品名称：{{item.username}}</view><view>位置：{{item.place}}</view>
+</view>
+    
+ -->

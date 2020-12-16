@@ -1,0 +1,28 @@
+<image class="background2" style="opacity:{{0.5}}" src="../src/644.jpg" mode="aspectFill"></image>
+<view class="container">
+  <view style="color:purple">请输入您的选择</view>
+</view>
+
+  <view class="xuanxiang1">
+    <image class='btnImg'  mode="aspectFit" src='/icons/111.png' style="width:70rpx;height:70rpx;"></image>
+   <input class="weui-input" auto-focus placeholder="请输入"/></view>
+
+
+   <view class="xuanxiang2">
+    <image class='btnImg'  mode="aspectFit" src='/icons/222.png' style="width:70rpx;height:70rpx;"></image>
+   <input class="weui-input" auto-focus placeholder="请输入"/></view>
+   <view class="xuanxiang3">
+    <image class='btnImg'  mode="aspectFit" src='/icons/333.png' style="width:70rpx;height:70rpx;"></image>
+   <input class="weui-input" auto-focus placeholder="请输入"/></view>
+   <view class="xuanxiang4">
+    <image class='btnImg'  mode="aspectFit" src='/icons/444.png' style="width:70rpx;height:70rpx;"></image>
+   <input class="weui-input" auto-focus placeholder="请输入"/></view>
+   <view class="show1">
+<button bindtap="suiji" plain="true">随机抽选</button> </view>
+<view class="show">
+  <text>您的选择是：</text>{{list[i].name}}
+</view> 
+
+    
+      
+  

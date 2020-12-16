@@ -1,0 +1,72 @@
+<image class="background2" style="opacity:{{0.5}}" src="../src/644.jpg" mode="aspectFill"></image>
+<view class="select">
+  <view style="color:purple">请选择您的饮食标签:</view>
+</view>
+<view class="didian">
+  <radio-group bindchange="checkboxchange">
+  地点:
+  <radio value="食堂">食堂</radio>
+  <radio value="外卖">外卖</radio>
+</radio-group></view>
+<view class="kouwei">
+<radio-group bindchange="checkboxchange2">
+  口味:
+  <radio value="辣">辣</radio>
+  <radio value="不辣">不辣</radio>
+</radio-group></view>
+<view class="fengwei">
+<radio-group bindchange="checkboxchange3">
+  风味:
+  <radio value="米饭">米饭</radio>
+  <radio value="面食">面食</radio>
+  <radio value="饼类">饼类</radio>
+  <radio value="甜点饮品">甜点饮品</radio>
+  <radio value="其他">其他</radio>
+  
+
+</radio-group></view>
+<view class="cai">
+<!-- <radio-group bindchange="checkboxchange4">
+  菜/肉:
+  <radio value="肉肉">肉肉</radio>
+  <radio value="菜菜">菜菜</radio>
+  <radio value="其他">其他</radio>
+</radio-group> -->
+</view>
+<view class="caidan">
+<view>您的选择:</view>
+<view>位置:{{weizhi}}</view>
+<view>口味:{{kouwei}}</view>
+<view>风味:{{fan}}</view>
+<!-- <view>菜/肉:{{cai}}</view> --></view>
+<button type="default" plain="true" bindtap="onQuery">生成推荐菜单</button>
+<view wx:for="{{info}}" wx:key="index">
+  <view class="jieguo">
+  <view>菜品名称：{{item.username}}</view><view>位置：{{item.area}}</view>
+</view>
+</view>
+<!-- <navigator url="/pages/page4/page4"    hover-class="navigator-hover" > </navigator> -->
+      <!-- <button class="suiji" type="default" plain="true" >仍然纠结？点击这里</button> -->
+
+
+
+
+
+      
+<!-- <view class="we"><view style="color:purple">地点：</view>
+<checkbox color="pueple" checked="{{checked}}" bindtap="checkboxchange">{{checkboxchange}}食堂</checkbox>
+<checkbox color="blue" checked="{{checked}}" bindtap="checkboxchange">{{checkboxchange}}外卖</checkbox></view>
+<view class="we"><view style="color:purple">风味：</view>
+<checkbox color="blue" checked="{{checked}}" bindtap="checkboxchange">{{checkboxchange}}米饭</checkbox>
+<checkbox color="blue" checked="{{checked}}" bindtap="checkboxchange">{{checkboxchange}}面食</checkbox>
+<checkbox color="blue" checked="{{checked}}" bindtap="checkboxchange">{{checkboxchange}}米线</checkbox>
+<checkbox color="blue" checked="{{checked}}" bindtap="checkboxchange">{{checkboxchange}}其它</checkbox></view>
+<view class="we"><view style="color:purple">味道：</view>
+<checkbox color="blue" checked="{{checked}}" bindtap="checkboxchange">{{checkboxchange}}辣</checkbox>
+<checkbox color="blue" checked="{{checked}}" bindtap="checkboxchange">{{checkboxchange}}不辣</checkbox>
+<checkbox color="blue" checked="{{checked}}" bindtap="checkboxchange">{{checkboxchange}}酸</checkbox>
+<checkbox color="blue" checked="{{checked}}" bindtap="checkboxchange">{{checkboxchange}}甜</checkbox></view>
+
+<view class="ww">
+      <navigator url="/pages/page2/page2"    hover-class="navigator-hover" >
+      <button type="default" plain="true" >我选好了</button> </navigator></view> -->
